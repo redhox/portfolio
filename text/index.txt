@@ -1,0 +1,3 @@
+Fait sur Windows au moment de ça création  "index.php" est un projet de page d' accueil  pour le nouveau logiciel de serveur web   
+que nous venions d'installer (laragon)   il fallait afficher les information du serveur, un accès au contenu du serveur ,
+ a la "liste.php" et des lien utile  car utilisé aussi comme page de nouvel onglet dans le navigateur.

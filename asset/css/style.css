@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+}
+@font-face { 
+    font-family: "font";
+    src: url('../font/MySkinnyType.ttf'); 
+}
+@font-face { 
+    font-family: "font-large";
+    src: url('../font/Normal.ttf'); 
+}
+@font-face { 
+    font-family: "font-cyber";
+    src: url('../font/DESIGNER.otf'); 
+}
+@font-face { 
+    font-family: "font-mono";
+    src: url('../font/5ceta_mono.ttf'); 
+}
+
+html{
+    background-color:rgb(53, 52, 52);
+}
+    a{
+        text-decoration: none;
+        color: white;
+    }
+body{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+}
+input{
+    border-color: transparent;
+    box-shadow: 3px 3px 5px 5px black;
+    background-color: transparent;
+    color: white;
+    padding-left: 10px;
+}
+
+
+#main{
+    background-color:rgb(65, 65, 65);
+    width: 97%;
+    height: 100%;
+    position: absolute;
+    right: 0%;
+    transition: widt 2s, height 2S, right 2s;
+    overflow: hidden;   
+}
+.contenu{
+    width: 100%;
+    height: 100%;
+    display: none;
+    color: white;
+    box-shadow: inset 2px 2px 5px black;
+    overflow: hidden;
+}

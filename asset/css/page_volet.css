@@ -1,0 +1,70 @@
+#page_code{
+    position: absolute;
+    height: 100vh;
+    width: auto;
+    background-color: rgb(34, 34, 34);
+    z-index: 1;
+    right: 0;
+    top: -100vh;
+    transition: 1s;
+    display: flex;
+    flex-direction: row;
+}
+#langette{
+    height: 70px;
+    width: 50px;
+    background-color: rgb(43, 43, 43);
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+    border: solid 3px black;
+    border-bottom: transparent;
+    box-shadow: 2px 2px 5px black;
+    background-image: url('../image/uparrow4_78525.svg');
+    background-repeat: no-repeat;
+    transition: 0.4s;
+}
+#langette:hover{
+    
+    height: 120px;
+}
+#code_html{
+    height: 90vh;
+    width: 50%;
+    margin-top:3vh;
+    margin-left: 3%;
+    
+}
+#code_externe{
+    height: 90vh;
+    width: 43%;
+    margin-top:3vh;
+    margin-left: 1%;
+    flex-direction: column;
+}
+
+.class_code_externe{
+    height: 50%;
+    width: 100%;
+    
+}
+
+.titre_page_code{
+    font-style: italic;
+    font-size: 37px;
+    font-weight: bold;
+    color: #3ebbc4 ;
+    
+}
+pre{
+    width: 100%;
+    background-color: rgb(70, 70, 70);
+    max-height:92%;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    border-radius: 10px;
+    color: #3ebbc4;
+    border: 1px solid #3ebbc4;
+    font-size: medium;
+    padding: 5px;
+}

@@ -1,0 +1,362 @@
+
+    &ltdiv class="nav_bar"&gt 
+        &ltdiv class="nav_main" onclick="volet_code(0)"&gt 
+            &lta id="a_nav_main" href="#" &gt 
+                &ltp id="code_text_2"&gt  code source de la page &lt/p&gt 
+                &ltp id="code"&gt  &lt c o d e &gt  &lt/p&gt 
+            &lt/a&gt 
+        &lt/div&gt 
+
+        &ltnav&gt 
+            &ltdiv class="nav_boutton" onclick="page(1)"&gt &ltdiv class="boutton first"&gt &ltp&gt home&lt/p&gt &lt/div&gt &ltdiv class="boutton deuxieme"&gt &ltimg src="./asset/image/design_icon_home.png"&gt &lt/div&gt &lt/div&gt 
+            &ltdiv class="nav_boutton" onclick="page(2)"&gt &ltdiv class="boutton first"&gt &ltp&gt CV&lt/p&gt &lt/div&gt &ltdiv class="boutton deuxieme"&gt &ltimg src="./asset/image/design_icon_cv.png"&gt &lt/div&gt &lt/div&gt 
+            &ltdiv class="nav_boutton" onclick="page(3)"&gt &ltdiv class="boutton first"&gt &ltp&gt listes&lt/p&gt &lt/div&gt &ltdiv class="boutton deuxieme"&gt &ltimg src="./asset/image/design_icon_liste.png"&gt &lt/div&gt &lt/div&gt 
+            &ltdiv class="nav_boutton" onclick="page(4)"&gt &ltdiv class="boutton first"&gt &ltp&gt LANG&lt/p&gt &lt/div&gt &ltdiv class="boutton deuxieme"&gt &ltimg src="./asset/image/design_icon_exo.png"&gt &lt/div&gt &lt/div&gt 
+            &ltdiv class="nav_boutton" onclick="page(5)"&gt &ltdiv class="boutton first"&gt &ltp&gt mail&lt/p&gt &lt/div&gt &ltdiv class="boutton deuxieme"&gt &ltimg src="./asset/image/design_icon_mail.svg"&gt &lt/div&gt &lt/div&gt 
+            
+        &lt/nav&gt 
+        &ltdiv class="nav_lien"&gt 
+            &ltdiv class="nav_lien_gauche"&gt 
+                &lta href="https://www.schoolofweb.tech/"&gt &ltspan&gt shoolofweb&lt/span&gt &lt/a&gt 
+                &lta href="#"&gt &ltspan&gt github&lt/span&gt &lt/a&gt 
+                &lta href="#" onclick="page(5)"&gt &ltspan&gt mail&lt/span&gt &lt/a&gt 
+            &lt/div&gt 
+            &ltdiv class="nav_lien_droite"&gt  
+                &lta href="https://www.schoolofweb.tech/"&gt &ltimg src="./asset/image/design_icon_home.png"&gt &lt/a&gt 
+                &lta href="https://github.com/redhox"&gt &ltimg src="./asset/image/design_icon_git.svg"&gt &lt/a&gt 
+                &lta href="#" onclick="page(5)"&gt &ltimg src="./asset/image/design_icon_mail.svg"&gt &lt/a&gt 
+            &lt/div&gt 
+        &lt/div&gt 
+    &lt/div&gt 
+
+    &ltdiv id="page_code"&gt 
+        &ltdiv id="code_html"&gt 
+            &ltp class="titre_page_code"&gt html&lt/p&gt 
+
+        &lt/div&gt 
+        &ltdiv id="code_externe"&gt 
+            &ltdiv class="class_code_externe "&gt 
+                &ltp class="titre_page_code"&gt css&lt/p&gt 
+
+            &lt/div&gt 
+            &ltdiv class="class_code_externe" &gt 
+                &ltp class="titre_page_code"&gt js&lt/p&gt 
+
+            &lt/div&gt 
+        &lt/div&gt 
+        &ltdiv id="langette" onclick="volet_code(1)"&gt &lt/div&gt 
+    &lt/div&gt 
+    &ltdiv id="main"&gt 
+
+        &ltdiv class="contenu" id="page_1"&gt 
+            &ltdiv id="page_1_block"&gt 
+                &ltdiv id="bonjour"&gt 
+                    &ltdiv&gt 
+                        &ltdiv class="lettre" id="lettre_b"&gt B&lt/div&gt 
+                        &ltdiv class="lettre" id="lettre_o"&gt o&lt/div&gt 
+                        &ltdiv class="lettre" id="lettre_n"&gt n&lt/div&gt 
+                        &ltdiv class="lettre" id="lettre_j"&gt j&lt/div&gt 
+                        &ltdiv class="lettre" id="lettre_o2"&gt o&lt/div&gt 
+                        &ltdiv class="lettre" id="lettre_u"&gt u&lt/div&gt 
+                        &ltdiv class="lettre" id="lettre_r"&gt r&lt/div&gt 
+
+                        &ltdiv class="lettre" id="lettre_f"&gt F&lt/div&gt 
+                        &ltdiv class="lettre" id="lettre_o3"&gt o&lt/div&gt 
+                        &ltdiv class="lettre" id="lettre_l"&gt l&lt/div&gt 
+                        &ltdiv class="lettre" id="lettre_i"&gt i&lt/div&gt 
+                        &ltdiv class="lettre" id="lettre_o4"&gt o&lt/div&gt 
+                        &ltdiv class="lettre" id="ligne_1"&gt &lt/div&gt 
+                    &lt/div&gt 
+                    &ltdiv&gt 
+                        &ltdiv class="lettre" id="lettre_d"&gt d&lt/div&gt 
+                        &ltdiv class="lettre" id="lettre_e"&gt e&lt/div&gt 
+                        &ltdiv class="lettre" id="ligne_2"&gt &lt/div&gt 
+                    &lt/div&gt 
+                    &ltdiv&gt 
+                        &ltdiv class="lettre" id="lettre_m"&gt M&lt/div&gt 
+                        &ltdiv class="lettre" id="lettre_o5"&gt o&lt/div&gt 
+                        &ltdiv class="lettre" id="lettre_r2"&gt r&lt/div&gt 
+                        &ltdiv class="lettre" id="lettre_g"&gt g&lt/div&gt 
+                        &ltdiv class="lettre" id="lettre_a"&gt a&lt/div&gt 
+                        &ltdiv class="lettre" id="lettre_n2"&gt n&lt/div&gt 
+                        &ltdiv class="lettre" id="ligne_3"&gt &lt/div&gt 
+                    &lt/div&gt 
+                    &ltdiv&gt 
+                        &ltdiv class="lettre" id="lettre_c"&gt C&lt/div&gt 
+                        &ltdiv class="lettre" id="lettre_o6"&gt O&lt/div&gt 
+                        &ltdiv class="lettre" id="lettre_u2"&gt U&lt/div&gt 
+                        &ltdiv class="lettre" id="lettre_l2"&gt L&lt/div&gt 
+                        &ltdiv class="lettre" id="lettre_m2"&gt M&lt/div&gt 
+                        &ltdiv class="lettre" id="ligne_4"&gt &lt/div&gt 
+                    &lt/div&gt 
+                        
+                &lt/div&gt 
+                    &ltdiv id="page_1_image"&gt  
+                    &lt/div&gt 
+            &lt/div&gt  
+        &lt/div&gt 
+    
+        &ltdiv class="contenu" id="page_2"&gt 
+            &ltp id="page_2_titre"&gt &lt/p&gt 
+            &ltp id="page_2_zone_de_text"&gt 
+            &lt/p&gt 
+            &ltdiv id="page_2_cv"&gt 
+                &ltdiv class="cv" id="petit_cv"&gt 
+                    &ltdiv class="petit_cv_block_large" id="petit_cv_haut"&gt 
+                        &ltdiv id="petit_cv_info"&gt &ltp&gt Morgan COULM &ltbr&gt  133 rue Paul Masson &ltbr&gt  29200 Brest &ltbr&gt 25 ans (1995) &ltbr&gt Permis B&lt/p&gt &lt/div&gt 
+                        &ltdiv id="petit_cv_image"&gt image&lt/div&gt 
+                    &lt/div&gt 
+
+                    &ltdiv class="petit_cv_block_large"&gt 
+                        &ltp&gt Compétences&lt/p&gt 
+                        &ltli&gt Langage Html Css Js Php&lt/li&gt 
+                        &ltli&gt Résoudre les dysfonctionnements&lt/li&gt 
+                        &ltli&gt Guider l'utilisateur&lt/li&gt 
+                        &ltli&gt Anglais technique&lt/li&gt 
+                        &ltli id="faux_lien"&gt voir plus&lt/li&gt 
+                        
+                    &lt/div&gt 
+
+                    &ltdiv class="petit_cv_block_large"&gt 
+                        &ltp&gt Expériences professionnelles&lt/p&gt 
+                        &ltdiv class="petit_cv_text"&gt &ltspan class="petit_cv_gauche"&gt technicien courant faible&lt/span&gt &ltspan class="petit_cv_date"&gt 2016&lt/span&gt &lt/div&gt 
+                        &ltdiv class="petit_cv_text"&gt &ltspan class="petit_cv_gauche"&gt Agent de maintenance de réseau&lt/span&gt &ltspan class="petit_cv_date"&gt 2015&lt/span&gt &lt/div&gt 
+                        &ltdiv class="petit_cv_text"&gt &ltspan class="petit_cv_gauche"&gt Technicien Réseau&lt/span&gt &ltspan class="petit_cv_date"&gt 2013-2014&lt/span&gt &lt/div&gt 
+                        &ltdiv class="petit_cv_text"&gt &ltspan class="petit_cv_gauche" id="faux_lien"&gt voir plus&lt/span&gt &lt/div&gt 
+                    &lt/div&gt 
+
+                    &ltdiv class="petit_cv_block_large"&gt 
+                        &ltp&gt formation&lt/p&gt 
+                        &ltdiv class="petit_cv_text"&gt &ltspan class="petit_cv_gauche"&gt développeur web et web mobile, afpa&lt/span&gt &ltspan class="petit_cv_date"&gt 2020-2021&lt/span&gt &lt/div&gt 
+                        &ltdiv class="petit_cv_text"&gt &ltspan class="petit_cv_gauche"&gt Grande école du numérique&lt/span&gt &ltspan class="petit_cv_date"&gt 2017-2018&lt/span&gt &lt/div&gt 
+                        &ltdiv class="petit_cv_text"&gt &ltspan class="petit_cv_gauche"&gt BTS Système Numérique&lt/span&gt &ltspan class="petit_cv_date"&gt 2014-2016&lt/span&gt &lt/div&gt 
+                        &ltdiv class="petit_cv_text"&gt &ltspan class="petit_cv_gauche"&gt Baccalauréat professionnel&lt/span&gt &ltspan class="petit_cv_date"&gt 2014&lt/span&gt &lt/div&gt 
+                    &lt/div&gt 
+
+                &lt/div&gt 
+
+                &ltdiv class="cv" id="grand_cv"&gt 
+                    &ltdiv class="grand_cv_block_large" id="grand_cv_haut"&gt 
+                        &ltdiv id="grand_cv_haut_gauche"&gt &ltp&gt Morgan COULM  &ltbr&gt 25 ans (1995) &ltbr&gt Permis B &ltbr&gt  morganXXXXXX@gmail.com&lt/p&gt &lt/div&gt 
+                        &ltdiv id="grand_cv_haut_milieu"&gt 
+                            &ltimg src="./asset/external-content.duckduckgo.com.png" alt=""&gt 
+                        &lt/div&gt 
+                        &ltdiv id="grand_cv_haut_droite"&gt  133 rue Paul Masson &ltbr&gt  29200 Brest &ltbr&gt 06 14 XX XX XX&lt/div&gt 
+                    &lt/div&gt 
+
+                    &ltdiv class="grand_cv_block_large" &gt 
+                        &ltp&gt Compétences&lt/p&gt 
+                        &ltli&gt Langage Html Css Js Php&lt/li&gt 
+                        &ltli&gt Résoudre les dysfonctionnements&lt/li&gt 
+                        &ltli&gt Guider l'utilisateur&lt/li&gt 
+                        &ltli&gt Changer ou réparer un élément&lt/li&gt 
+                        &ltli&gt Configurer le poste de travail&lt/li&gt 
+                        &ltli&gt Effectuer les tests de fonctionnement&lt/li&gt 
+                        &ltli&gt Effectuer les opérations de nettoyage et de réglage&lt/li&gt 
+                        &ltli&gt Renseigner les supports de suivi d'intervention&lt/li&gt 
+                        &ltli&gt Anglais technique&lt/li&gt 
+
+                    &lt/div&gt 
+
+                    &ltdiv class="grand_cv_block_large" &gt 
+                        &ltp&gt Expériences professionnelles&lt/p&gt 
+                        &ltdiv class="grand_cv_text"&gt &ltspan class="grand_cv_gauche"&gt technicien courant faible, Maintenance Resaux Câblés,Brest&lt/span&gt &ltspan class="grand_cv_date"&gt 2016&lt/span&gt &lt/div&gt 
+                        &ltdiv class="grand_cv_text"&gt &ltspan class="grand_cv_gauche"&gt Agent de maintenance de réseau, LASER SYMAG, Brest&lt/span&gt &ltspan class="grand_cv_date"&gt 2015&lt/span&gt &lt/div&gt 
+                        &ltdiv class="grand_cv_text"&gt &ltspan class="grand_cv_gauche"&gt Technicien Réseau, SNCF services télécommunications, Brest&lt/span&gt &ltspan class="grand_cv_date"&gt 2013-2014&lt/span&gt &lt/div&gt 
+                        &ltdiv class="grand_cv_text"&gt &ltspan class="grand_cv_gauche"&gt Agent de maintenance domotique et informatique, VINCI, Brest&lt/span&gt &ltspan class="grand_cv_date"&gt 2012-2013&lt/span&gt &lt/div&gt 
+                        &ltdiv class="grand_cv_text"&gt &ltspan class="grand_cv_gauche"&gt Installateur de logiciel, DIRISI, Brest&lt/span&gt &ltspan class="grand_cv_date"&gt 2012&lt/span&gt &lt/div&gt 
+                    &lt/div&gt 
+
+                    &ltdiv class="grand_cv_block_large" &gt 
+                        &ltp&gt formation&lt/p&gt 
+                        &ltdiv class="grand_cv_text"&gt &ltspan class="grand_cv_gauche"&gt Grande école du numérique , les petits débrouillards&lt/span&gt &ltspan class="grand_cv_date"&gt 2017-2018&lt/span&gt &lt/div&gt 
+                        &ltdiv class="grand_cv_text"&gt &ltspan class="grand_cv_gauche"&gt 1ere année de BTS Système Numérique, Lycée Saint Joseph, Lorient&lt/span&gt &ltspan class="grand_cv_date"&gt 2014-2016&lt/span&gt &lt/div&gt 
+                        &ltdiv class="grand_cv_text"&gt &ltspan class="grand_cv_gauche"&gt Baccalauréat professionnel Systèmes électroniques et numériques (SEN)&lt/span&gt &ltspan class="grand_cv_date"&gt 2014&lt/span&gt &lt/div&gt 
+                    &lt/div&gt 
+                    &ltdiv class="grand_cv_block_large" &gt 
+                        &ltp&gt Centres d'intérêts&lt/p&gt 
+                        &ltdiv class="grand_cv_text"&gt &ltspan class="grand_cv_gauche"&gt truc cool&lt/span&gt &lt/div&gt 
+                        
+                    &lt/div&gt 
+                &lt/div&gt 
+            &lt/div&gt 
+        &lt/div&gt 
+    
+        &ltdiv class="contenu" id="page_3"&gt 
+            &ltdiv id="page_3_contenu"&gt 
+                &ltdiv id="page_3_list" onclick="page_3('list')"&gt 
+                    &ltdiv class="page_3_text" id="text_list"&gt 
+                        &ltp&gt 
+                    &lt?php include('./text/liste.txt') ?&gt         
+                        &lt/p&gt 
+                    &lt/div&gt 
+                    &ltp class="page_3_titre" id="list_titre"&gt liste&lt/p&gt 
+                &lt/div&gt 
+
+                &ltdiv id="page_3_index" onclick="page_3('index')"&gt 
+                    &ltdiv class="page_3_text" id="text_index"&gt 
+                        &ltp&gt 
+                        &lt?php include('./text/index.txt') ?&gt 
+                        &lt/p&gt 
+                    &lt/div&gt 
+                    &ltp class="page_3_titre" id="index_titre"&gt index&lt/p&gt 
+                    
+                &lt/div&gt 
+            &lt/div&gt 
+        &lt/div&gt 
+    
+        &ltdiv class="contenu" id="page_4"&gt 
+            &ltdiv id="page_4_block"&gt 
+                &ltdiv class="page_4_colonne" &gt 
+                    &ltdiv class="page_4_in_colonne" id="page_colonne_2"&gt 
+                        &ltdiv&gt 
+                            &ltdiv class="block_competance"&gt  &ltdiv class="block_competance_titre" id="contenu_color_html"&gt Html/Css&lt/div&gt &ltdiv class="block_competance_core"&gt Création d’un menu horizontal sticky&lt/div&gt &lt/div&gt 
+                            &ltdiv class="block_competance"&gt  &ltdiv class="block_competance_titre" id="contenu_color_html"&gt Html/Css&lt/div&gt &ltdiv class="block_competance_core"&gt Création d’un menu déroulant&lt/div&gt &lt/div&gt 
+                            &ltdiv class="block_competance"&gt  &ltdiv class="block_competance_titre" id="contenu_color_html"&gt Html/Css&lt/div&gt &ltdiv class="block_competance_core"&gt Créer un diaporama en HTML et CSS&lt/div&gt &lt/div&gt 
+                            &ltdiv class="block_competance"&gt  &ltdiv class="block_competance_titre" id="contenu_color_html"&gt Html/Css&lt/div&gt &ltdiv class="block_competance_core"&gt Création d’un menu flex&lt/div&gt &lt/div&gt 
+                            &ltdiv class="block_competance"&gt  &ltdiv class="block_competance_titre" id="contenu_color_html"&gt Html/Css&lt/div&gt &ltdiv class="block_competance_core"&gt Création d’un menu déroulant responsive&lt/div&gt &lt/div&gt 
+                            &ltdiv class="block_competance"&gt  &ltdiv class="block_competance_titre" id="contenu_color_html"&gt Html/Css&lt/div&gt &ltdiv class="block_competance_core"&gt Création d’un site personnel monopage&lt/div&gt &lt/div&gt 
+                            &ltdiv class="block_competance"&gt  &ltdiv class="block_competance_titre" id="contenu_color_html"&gt Html/Css&lt/div&gt &ltdiv class="block_competance_core"&gt  Création d’une page à 3 colonnes avec des éléments flexibles&lt/div&gt &lt/div&gt 
+                            &ltdiv class="block_competance"&gt  &ltdiv class="block_competance_titre" id="contenu_color_html"&gt Html/Css&lt/div&gt &ltdiv class="block_competance_core"&gt Mise en forme des exercices en format documentation&lt/div&gt &lt/div&gt 
+
+                        &lt/div&gt 
+                    &lt/div&gt 
+                &lt/div&gt 
+                &ltdiv class="page_4_colonne" &gt 
+                    &ltdiv class="page_4_in_colonne" id="page_colonne_3"&gt 
+                        &ltdiv&gt 
+                            &ltdiv class="block_competance"&gt  &ltdiv class="block_competance_titre" id="contenu_color_bootstrap"&gt Bootstrap&lt/div&gt &ltdiv class="block_competance_core"&gt CLASSES BOOTSTRAP ET PROPRIÉTÉS CSS&lt/div&gt &lt/div&gt 
+                            &ltdiv class="block_competance"&gt  &ltdiv class="block_competance_titre" id="contenu_color_bootstrap"&gt Bootstrap&lt/div&gt &ltdiv class="block_competance_core"&gt TYLISER DES ÉLÉMENTS COMPLEXES AVEC BOOTSTRAP&lt/div&gt &lt/div&gt 
+                            &ltdiv class="block_competance"&gt  &ltdiv class="block_competance_titre" id="contenu_color_bootstrap"&gt Bootstrap&lt/div&gt &ltdiv class="block_competance_core"&gt LES COMPOSANTS DE NAVIGATION BOOTSTRAP&lt/div&gt &lt/div&gt 
+                            &ltdiv class="block_competance"&gt  &ltdiv class="block_competance_titre" id="contenu_color_bootstrap"&gt Bootstrap&lt/div&gt &ltdiv class="block_competance_core"&gt LES COMPOSANTS INFORMATIFS BOOTSTRAP&lt/div&gt &lt/div&gt 
+                        &lt/div&gt 
+                    &lt/div&gt 
+                &lt/div&gt 
+                &ltdiv class="page_4_colonne" &gt 
+                    &ltdiv class="page_4_in_colonne" id="page_colonne_4"&gt 
+                        &ltdiv&gt 
+                            &ltdiv class="block_competance"&gt  &ltdiv class="block_competance_titre" id="contenu_color_algo"&gt Algorithmie&lt/div&gt &ltdiv class="block_competance_core"&gt LES VARIABLES&lt/div&gt &lt/div&gt 
+                            &ltdiv class="block_competance"&gt  &ltdiv class="block_competance_titre" id="contenu_color_algo"&gt Algorithmie&lt/div&gt &ltdiv class="block_competance_core"&gt LECTURE ET ECRITURE&lt/div&gt &lt/div&gt 
+                            &ltdiv class="block_competance"&gt  &ltdiv class="block_competance_titre" id="contenu_color_algo"&gt Algorithmie&lt/div&gt &ltdiv class="block_competance_core"&gt LES TESTS &lt/div&gt &lt/div&gt 
+                            &ltdiv class="block_competance"&gt  &ltdiv class="block_competance_titre" id="contenu_color_algo"&gt Algorithmie&lt/div&gt &ltdiv class="block_competance_core"&gt LES BOUCLES&lt/div&gt &lt/div&gt 
+                            &ltdiv class="block_competance"&gt  &ltdiv class="block_competance_titre" id="contenu_color_algo"&gt Algorithmie&lt/div&gt &ltdiv class="block_competance_core"&gt LES TABLEAUX&lt/div&gt &lt/div&gt 
+                            &ltdiv class="block_competance"&gt  &ltdiv class="block_competance_titre" id="contenu_color_algo"&gt Algorithmie&lt/div&gt &ltdiv class="block_competance_core"&gt LES TABLEAUX MULTIDIMENSIONNELS&lt/div&gt &lt/div&gt 
+                            &ltdiv class="block_competance"&gt  &ltdiv class="block_competance_titre" id="contenu_color_algo"&gt Algorithmie&lt/div&gt &ltdiv class="block_competance_core"&gt LES FONCTIONS&lt/div&gt &lt/div&gt 
+                            &ltdiv class="block_competance"&gt  &ltdiv class="block_competance_titre" id="contenu_color_algo"&gt Algorithmie&lt/div&gt &ltdiv class="block_competance_core"&gt LES FONCTIONS PERSONNALISEES&lt/div&gt &lt/div&gt 
+                            &ltdiv class="block_competance"&gt  &ltdiv class="block_competance_titre" id="contenu_color_algo"&gt Algorithmie&lt/div&gt &ltdiv class="block_competance_core"&gt LE TRI A BULLE&lt/div&gt &lt/div&gt 
+                        &lt/div&gt 
+                    &lt/div&gt 
+                &lt/div&gt 
+                &ltdiv class="page_4_colonne" &gt 
+                    &ltdiv class="page_4_in_colonne" id="page_colonne_5"&gt 
+                        &ltdiv&gt 
+                            &ltdiv class="block_competance"&gt  &ltdiv class="block_competance_titre" id="contenu_color_js"&gt Javascript&lt/div&gt &ltdiv class="block_competance_core"&gt LES VARIABLES ET TYPES DE VALEURS JAVASCRIPT&lt/div&gt &lt/div&gt 
+                            &ltdiv class="block_competance"&gt  &ltdiv class="block_competance_titre" id="contenu_color_js"&gt Javascript&lt/div&gt &ltdiv class="block_competance_core"&gt  LES STRUCTURES DE CONTRÔLE JAVASCRIPT&lt/div&gt &lt/div&gt 
+                            &ltdiv class="block_competance"&gt  &ltdiv class="block_competance_titre" id="contenu_color_js"&gt Javascript&lt/div&gt &ltdiv class="block_competance_core"&gt LES FONCTIONS EN JAVASCRIPT&lt/div&gt &lt/div&gt 
+                            &ltdiv class="block_competance"&gt  &ltdiv class="block_competance_titre" id="contenu_color_js"&gt Javascript&lt/div&gt &ltdiv class="block_competance_core"&gt  L’ORIENTÉ OBJET EN JAVASCRIPT&lt/div&gt &lt/div&gt 
+                            &ltdiv class="block_competance"&gt  &ltdiv class="block_competance_titre" id="contenu_color_js"&gt Javascript&lt/div&gt &ltdiv class="block_competance_core"&gt VALEURS PRIMITIVES ET OBJETS GLOBAUX JAVASCRIPT&lt/div&gt &lt/div&gt 
+                            &ltdiv class="block_competance"&gt  &ltdiv class="block_competance_titre" id="contenu_color_js"&gt Javascript&lt/div&gt &ltdiv class="block_competance_core"&gt  MANIPULATION DU BOM EN JAVASCRIPT&lt/div&gt &lt/div&gt 
+                            &ltdiv class="block_competance"&gt  &ltdiv class="block_competance_titre" id="contenu_color_js"&gt Javascript&lt/div&gt &ltdiv class="block_competance_core"&gt MANIPULATION DU DOM EN JAVASCRIPT&lt/div&gt &lt/div&gt 
+                            &ltdiv class="block_competance"&gt  &ltdiv class="block_competance_titre" id="contenu_color_js"&gt Javascript&lt/div&gt &ltdiv class="block_competance_core"&gt UTILISATION DES EXPRESSIONS RÉGULIÈRES EN JAVASCRIPT&lt/div&gt &lt/div&gt 
+                            &ltdiv class="block_competance"&gt  &ltdiv class="block_competance_titre" id="contenu_color_js"&gt Javascript&lt/div&gt &ltdiv class="block_competance_core"&gt AFFICHER ET CACHER UN ELEMENT&lt/div&gt &lt/div&gt 
+                            &ltdiv class="block_competance"&gt  &ltdiv class="block_competance_titre" id="contenu_color_js"&gt Javascript&lt/div&gt &ltdiv class="block_competance_core"&gt TRI DYNAMIQUE D'UN TABLEAU&lt/div&gt &lt/div&gt 
+                            &ltdiv class="block_competance"&gt  &ltdiv class="block_competance_titre" id="contenu_color_js"&gt Javascript&lt/div&gt &ltdiv class="block_competance_core"&gt GESTION DES ERREURS ET MODE STRICT EN JAVASCRIPT&lt/div&gt &lt/div&gt 
+                            &ltdiv class="block_competance"&gt  &ltdiv class="block_competance_titre" id="contenu_color_js"&gt Javascript&lt/div&gt &ltdiv class="block_competance_core"&gt L’ASYNCHRONE EN JAVASCRIPT&lt/div&gt &lt/div&gt 
+                            &ltdiv class="block_competance"&gt  &ltdiv class="block_competance_titre" id="contenu_color_js"&gt Javascript&lt/div&gt &ltdiv class="block_competance_core"&gt  SYMBOLES, ITÉRATEURS ET GÉNÉRATEURS EN JAVASCRIPT&lt/div&gt &lt/div&gt 
+                            &ltdiv class="block_competance"&gt  &ltdiv class="block_competance_titre" id="contenu_color_js"&gt Javascript&lt/div&gt &ltdiv class="block_competance_core"&gt STOCKAGE DE DONNÉES DANS LE NAVIGATEUR EN JAVASCRIPT&lt/div&gt &lt/div&gt 
+                            &ltdiv class="block_competance"&gt  &ltdiv class="block_competance_titre" id="contenu_color_js"&gt Javascript&lt/div&gt &ltdiv class="block_competance_core"&gt  L’ÉLÉMENT HTML CANVAS ET L’API CANVAS&lt/div&gt &lt/div&gt 
+                            &ltdiv class="block_competance"&gt  &ltdiv class="block_competance_titre" id="contenu_color_js"&gt Javascript&lt/div&gt &ltdiv class="block_competance_core"&gt JSON, AJAX ET FETCH EN JAVASCRIPT&lt/div&gt &lt/div&gt 
+
+                        
+                        &lt/div&gt 
+                    &lt/div&gt 
+                &lt/div&gt 
+                &ltdiv class="page_4_colonne" &gt 
+                    &ltdiv class="page_4_in_colonne" id="page_colonne_6"&gt 
+                        &ltdiv&gt 
+                            &ltdiv class="block_competance"&gt  &ltdiv class="block_competance_titre" id="contenu_color_php"&gt Php&lt/div&gt &ltdiv class="block_competance_core"&gt LES STRUCTURES DE CONTRÔLE EN PHP&lt/div&gt &lt/div&gt 
+                            &ltdiv class="block_competance"&gt  &ltdiv class="block_competance_titre" id="contenu_color_php"&gt Php&lt/div&gt &ltdiv class="block_competance_core"&gt FONCTIONS EN PHP&lt/div&gt &lt/div&gt 
+                            &ltdiv class="block_competance"&gt  &ltdiv class="block_competance_titre" id="contenu_color_php"&gt Php&lt/div&gt &ltdiv class="block_competance_core"&gt  VARIABLES TABLEAUX EN PHP&lt/div&gt &lt/div&gt 
+                            &ltdiv class="block_competance"&gt  &ltdiv class="block_competance_titre" id="contenu_color_php"&gt Php&lt/div&gt &ltdiv class="block_competance_core"&gt MANIPULER DES DATES EN PHP&lt/div&gt &lt/div&gt 
+                            &ltdiv class="block_competance"&gt  &ltdiv class="block_competance_titre" id="contenu_color_php"&gt Php&lt/div&gt &ltdiv class="block_competance_core"&gt LES VARIABLES SUPERGLOBALES PHP&lt/div&gt &lt/div&gt 
+                            &ltdiv class="block_competance"&gt  &ltdiv class="block_competance_titre" id="contenu_color_php"&gt Php&lt/div&gt &ltdiv class="block_competance_core"&gt MANIPULER DES FICHIERS EN PHP&lt/div&gt &lt/div&gt 
+                            &ltdiv class="block_competance"&gt  &ltdiv class="block_competance_titre" id="contenu_color_php"&gt Php&lt/div&gt &ltdiv class="block_competance_core"&gt UTILISER LES EXPRESSIONS RÉGULIÈRES OU RATIONNELLES EN PHP&lt/div&gt &lt/div&gt 
+                            &ltdiv class="block_competance"&gt  &ltdiv class="block_competance_titre" id="contenu_color_php"&gt Php&lt/div&gt &ltdiv class="block_competance_core"&gt PROGRAMMATION ORIENTÉE OBJET PHP&lt/div&gt &lt/div&gt 
+                            &ltdiv class="block_competance"&gt  &ltdiv class="block_competance_titre" id="contenu_color_php"&gt Php&lt/div&gt &ltdiv class="block_competance_core"&gt FILTRES ET GESTION DES ERREURS EN PHP&lt/div&gt &lt/div&gt 
+                            &ltdiv class="block_competance"&gt  &ltdiv class="block_competance_titre" id="contenu_color_php"&gt Php&lt/div&gt &ltdiv class="block_competance_core"&gt BASES DE DONNÉES, SQL ET À MYSQL&lt/div&gt &lt/div&gt 
+                            &ltdiv class="block_competance"&gt  &ltdiv class="block_competance_titre" id="contenu_color_php"&gt Php&lt/div&gt &ltdiv class="block_competance_core"&gt BASES DE DONNÉES, AU SQL ET À MYSQL&lt/div&gt &lt/div&gt 
+                            &ltdiv class="block_competance"&gt  &ltdiv class="block_competance_titre" id="contenu_color_php"&gt Php&lt/div&gt &ltdiv class="block_competance_core"&gt GESTION DES FORMULAIRES HTML AVEC PHP&lt/div&gt &lt/div&gt 
+                        &lt/div&gt 
+                    &lt/div&gt 
+                &lt/div&gt 
+            &lt/div&gt 
+            
+        &lt/div&gt 
+    
+        &ltdiv class="contenu" id="page_5"&gt 
+            &ltdiv id="block_page_5"&gt 
+            &ltdiv class="formulaire"&gt 
+                &ltform method="post" action="_Sendmail.php"&gt 
+                &ltdiv class="form_large"&gt 
+                    &ltdiv class="form_moitie"&gt 
+                        &ltlabel for="name"&gt Nom&lt/label&gt 
+                        &ltinput type="text" name="nom" id="name" maxlength="30" placeholder="Votre Nom" required=""&gt 
+                    &lt/div&gt 
+
+                    &ltdiv class="form_moitie"&gt 
+                        &ltlabel for="name"&gt Prénom&lt/label&gt 
+                        &ltinput type="text" name="prenom" id="name" maxlength="30" placeholder="Votre Prénom" required=""&gt 
+                    &lt/div&gt 
+                &lt/div&gt 
+                &ltdiv class="form_large"&gt 
+                    &ltdiv class="form_moitie"&gt 
+                        &ltlabel for="email"&gt Courriel&lt/label&gt 
+                        &ltinput type="text" name="email" id="email" placeholder="Nom@example.com" maxlength="40" required=""&gt 
+                    &lt/div&gt 
+
+                    &ltdiv class="form_moitie"&gt 
+                        &ltlabel for="name"&gt Téléphone&lt/label&gt 
+                        &ltinput type="text" name="telephone" id="tel-company" maxlength="10" pattern="^0[0-9]{9}" placeholder="+xx x xx xx xx xx" required=""&gt 
+                    &lt/div&gt 
+                &lt/div&gt 
+                &ltdiv class="form_large"&gt 
+                    
+                &lt/div&gt 
+
+
+                &ltdiv class="form_large"&gt 
+                    &ltselect name="categorie" id="category" required=""&gt 
+                        &ltoption value=""&gt Choisissez un thème &lt/option&gt 
+                        &ltoption value="1"&gt Informations complémentaires&lt/option&gt 
+                        &ltoption value="2"&gt Obtenir mon CV&lt/option&gt 
+                        &ltoption value="3"&gt ne se prononce pas&lt/option&gt 
+                    &lt/select&gt 
+                &lt/div&gt 
+
+
+                &ltdiv class="form_large"&gt 
+                    &lttextarea name="message" id="message" rows="4" maxlength="500" onpaste="return false;" oncopy="return false;" placeholder="Taper votre message ici (si vous voulez hein !!! Pas de pression )" required=""&gt &lt/textarea&gt 
+                &lt/div&gt 
+                    
+                &ltdiv class="form_large" id="form_action"&gt 
+                    &ltdiv class="form_moitie" id="form_check"&gt 
+                        
+                        &ltlabel for="human"&gt Je ne suis &ltbr&gt  pas un robot&lt/label&gt 
+                        &ltinput type="checkbox" id="human" name="robot" required="checked"&gt 
+                    &lt/div&gt 
+                    &ltdiv class="form_moitie"&gt 
+                        &ltbutton type="submit" value="Envoyer le Message" class="primary" id="envoie"&gt envoyé&lt/button&gt 
+                    &lt/div&gt 
+                &lt/div&gt 
+                &lt/form&gt 
+            &lt/div&gt 
+            &lt/div&gt 
+
+
+
+
+        &lt/div&gt 
+
+    &lt/div&gt 
+
+    &lt/div&gt 

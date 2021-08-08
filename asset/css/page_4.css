@@ -1,0 +1,102 @@
+
+#page_4_block{
+    height: 100vh;
+    min-width: 100%;
+    background-color: aquamarine;
+    overflow-y: none;
+    overflow-x: scroll;
+    display: flex;
+    flex-direction: row;
+}
+.page_4_colonne{
+    width: 20%;
+    min-width: 300px;
+    height: 100vh;
+    overflow: hidden;
+}
+.page_4_in_colonne{
+    height:100%;
+    width: 100%;
+    transition: 0.7s;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 10%;
+    overflow: hidden;
+}
+.page_4_in_colonne > div {
+    background-color: rgba(0, 0, 0, 0.726);
+    border: 1px solid black;
+    height: 90%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+.page_4_colonne:hover > .page_4_in_colonne{
+    margin-left: -10%;
+    margin-top: -10%;
+    width: 120%;
+    height: 120%;
+    background-color: blue;
+    box-shadow: 5px 5px 8px black;
+    
+}
+.page_4_colonne:hover > .page_4_in_colonne > div{
+    opacity: 1;
+}
+#page_colonne_2{
+    background-image: url('../image/code-1839406_1920.jpg');
+}
+#page_colonne_3{
+    background-image: url('../image/bootstrap-wallpaper.png');
+}
+#page_colonne_4{
+    background-image: url('../image/fractal-1119594_1920.jpg');
+}
+#page_colonne_5{
+    background-image: url('../image/frontend-4342425_1280.png');
+}
+#page_colonne_6{
+    background-image: url('../image/server-4393370_1920.jpg');
+}
+.block_competance{
+    min-height: 135px;
+    width: 200px;
+    margin:0 auto;
+    margin-top: 10%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.block_competance_titre{
+    width: 100%;
+    height: 35px;
+    background-color: blueviolet;
+    padding: 2%;
+    font-style: italic;
+}
+.block_competance_core{
+    min-width: 200px;
+    min-height: 100px;
+    background-color: white;
+    color: black;
+    padding: 2%;
+    font-variant-caps: all-petite-caps;
+}
+#contenu_color_html{
+    background-color: rgb(87, 87, 87);
+}
+#contenu_color_bootstrap{
+    background-color: blueviolet;
+}
+#contenu_color_algo{
+    background-color: rgb(95, 83, 14);
+}
+#contenu_color_js{
+    background-color: rgb(33, 189, 142);
+}
+#contenu_color_php{
+    background-color: rgb(90, 80, 231);
+    
+}

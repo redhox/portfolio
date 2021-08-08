@@ -1,0 +1,137 @@
+# English
+# Information for curious and developer.
+# The rules of robots.txt apply to all search engines and the top five global: Google, Bing, Yahoo !, Baidu and Yandex.
+# To make it much harder for the curious to understand the real names of files and folder paths, this file uses only a notation with wildcards.
+# File created by: Morgan COULM.
+# Fran�ais
+# Informations pour les curieux et les d�veloppeurs.
+# Les r�gles du robots.txt s'appliquent � tous les moteurs de recherche et aux cinq principaux mondiaux : Google, Bing, Yahoo!, Baidu et Yandex.
+# Pour rendre beaucoup plus difficile aux curieux la compr�hension des vrais noms des fichiers et des chemins des dossiers, ce fichier utilise uniquement une notation avec des "wildcards".
+# Aide en Fran�ais sur le fichier robots.txt � cette adresse : http://robots-txt.com/
+# Fichier cr�� par : Morgan COULM.
+
+# Rules for all robots
+# R�gles pour tous les robots
+User-agent: *
+Disallow: /_BDD-*
+Disallow: /_PHP*
+Disallow: /ass*
+Disallow: /ice*
+Disallow: /im*
+Disallow: /*.txt$
+Disallow: /*?
+Disallow: /_Send*
+Disallow: /Conf*
+Allow: /sitemap.htm
+Sitemap: https://www.schoolofweb.tech/sitemap.xml
+
+# Google-specific rules
+# R�gles sp�cifiques � Google
+User-agent: Googlebot
+Disallow: /_BDD-*
+Disallow: /_PHP*
+Disallow: /ass*
+Disallow: /ice*
+Disallow: /im*
+Disallow: /*.txt$
+Disallow: /*?
+Disallow: /_Send*
+Disallow: /Conf*
+Allow: /sitemap.htm
+Sitemap: https://www.schoolofweb.tech/sitemap.xml
+
+# Google Image Specific Rules
+# R�gles sp�cifiques � Google Image
+User-agent: Googlebot-Image
+Disallow: /_BDD-*
+Disallow: /_PHP*
+Disallow: /im*
+
+# Microsoft Bing-specific rules
+# R�gles sp�cifiques � Microsoft Bing
+User-agent: bingbot
+Disallow: /_BDD-*
+Disallow: /_PHP*
+Disallow: /ass*
+Disallow: /ice*
+Disallow: /im*
+Disallow: /*.txt$
+Disallow: /*?
+Disallow: /_Send*
+Disallow: /Conf*
+Allow: /sitemap.htm
+Sitemap: https://www.schoolofweb.tech/sitemap.xml
+
+# MSN-specific rules
+# R�gles sp�cifiques � Microsoft MSN
+User-agent: msnbot
+Disallow: /_BDD-*
+Disallow: /_PHP*
+Disallow: /ass*
+Disallow: /ice*
+Disallow: /im*
+Disallow: /*.txt$
+Disallow: /*?
+Disallow: /_Send*
+Disallow: /Conf*
+Allow: /sitemap.htm
+Sitemap: https://www.schoolofweb.tech/sitemap.xml
+
+# Yahoo!-specific rules
+# R�gles sp�cifiques � Yahoo!
+User-agent: Yahoo! Slurp
+Disallow: /_BDD-*
+Disallow: /_PHP*
+Disallow: /ass*
+Disallow: /ice*
+Disallow: /im*
+Disallow: /*.txt$
+Disallow: /*?
+Disallow: /_Send*
+Disallow: /Conf*
+Allow: /sitemap.htm
+Sitemap: https://www.schoolofweb.tech/sitemap.xml
+
+# Specific rules for Baidu (China)
+# R�gles sp�cifiques � Baidu (Chine)
+User-agent: Baiduspider
+Disallow: /_BDD-*
+Disallow: /_PHP*
+Disallow: /ass*
+Disallow: /ice*
+Disallow: /im*
+Disallow: /*.txt$
+Disallow: /*?
+Disallow: /_Send*
+Disallow: /Conf*
+Allow: /sitemap.htm
+Sitemap: https://www.schoolofweb.tech/sitemap.xml
+
+# Specific rules for Baidu Image (China)
+# R�gles sp�cifiques � Baidu Image (Chine)
+User-agent: Baiduspider-image
+Disallow: /_BDD-*
+Disallow: /_PHP*
+Disallow: /im*
+
+# Rules specific to Yandex (Russia)
+# R�gles sp�cifiques � Yandex (Russie)
+User-agent: Yandex
+Disallow: /_BDD-*
+Disallow: /_PHP*
+Disallow: /ass*
+Disallow: /ice*
+Disallow: /im*
+Disallow: /*.txt$
+Disallow: /*?
+Disallow: /_Send*
+Disallow: /Conf*
+Allow: /sitemap.htm
+Sitemap: https://www.schoolofweb.tech/sitemap.xml
+
+# Rules specific to Yandex Image (Russia)
+# R�gles sp�cifiques � Yandex Image (Russie)
+User-agent: YandexImages
+Disallow: /_BDD-*
+Disallow: /_PHP*
+Disallow: /im*

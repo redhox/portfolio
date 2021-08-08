@@ -1,0 +1,53 @@
+#page_3{
+    overflow: hidden;
+}
+#page_3 > div{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: blueviolet;
+}
+
+.moitier_page_3{
+width: 100%;
+height: 50%;
+transition: 0.7s;
+}
+#list{
+background-image: url('../image/liste.png');
+background-size: cover;
+}
+#index{
+    background-image: url('../image/index.png');
+    background-size: cover;
+}
+#text_list{
+margin-left:10%;
+margin-top: 5%;
+width: 80%;
+height:0% ;
+transition: 0.7s;
+background-color: rgba(41, 41, 41, 0.959);
+overflow: hidden;
+padding: 5px;
+}
+#text_list > p{
+    font-size: 6vw;
+    color: white;
+
+}
+#text_index{
+    margin-left:10%;
+margin-top: 5%;
+width: 80%;
+height:0% ;
+transition: 0.7s;
+background-color: rgba(41, 41, 41, 0.952);
+overflow: hidden;
+padding: 5px;
+}
+#text_index > p{
+    font-size: 6vw;
+    color: white;
+}

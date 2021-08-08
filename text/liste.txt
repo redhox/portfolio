@@ -1,0 +1,2 @@
+la "liste.php" est un explorateur de fichier inspiré par l'explorateur de dossier Windows qui à pour but de se déplacé et d’afficher les fichiers/sites-web dans l’arborescence d'un serveur sans changer de page. 
+"au moment de travailler dans des arborescences complexe ou il faut cherché la page dans la bar d'url j'ai créé cette liste pour me déplacé dans mes dossier avec plus d'aisance "(projet qui a évolué au file de ma formation). 

@@ -1,0 +1,66 @@
+<article id="humans">
+<h2>TEAM </h2> 
+<ul>
+<li>Chef: Morgan COULM </li>
+<li>Contact: morgan.coulm [at] gmail.com </li>
+<li>Twitter: @twitter </li>
+<li>From:Brest, Bretagne, France </li>
+</ul>	
+<ul>
+<li>UI developer: Morgan COULM </li>
+<li>Contact: morgan.coulm [at] gmail.com </li>
+<li>Twitter: @twitter </li>
+<li>From:Brest, Bretagne, France </li>
+</ul>
+<ul>
+<li>Chef: Morgan COULM </li>
+<li>Contact: morgan.coulm [at] gmail.com </li>
+<li>Twitter: @twitter </li>
+<li>From:Brest, Bretagne, France </li>
+</ul>	
+<ul>
+<li>One eyed illustrator: Morgan COULM </li>
+<li>Contact: morgan.coulm [at] gmail.com </li>
+<li>Twitter: @twitter </li>
+<li>From:Brest, Bretagne, France </li>
+</ul>
+<ul>
+<li>Standard Man: Morgan COULM </li>
+<li>Contact: morgan.coulm [at] gmail.com </li>
+<li>Twitter: @twitter </li>
+<li>From:Brest, Bretagne, France </li>
+</ul>
+<ul>
+<li>Web designer: Morgan COULM</li>
+<li>Contact: morgan.coulm [at] gmail.com </li>
+<li>Twitter: @twitter </li>
+<li>From:Brest, Bretagne, France </li>
+</ul>		
+
+<h2>THANKS </h2>
+<ul>
+<li>(First) EN Translator:Morgan COULM</li>
+<li>Twitter: @twitter </li>
+<li>From:Brest, Bretagne, France </li>
+</ul>
+<ul>
+<li>EN Translator:Morgan COULM</li>
+<li>Twitter: @twitter </li>
+<li>From:Brest, Bretagne, France </li>
+</ul>
+<ul>
+<li>FR Translator:Morgan COULM</li>
+<li>Twitter: @twitter </li>
+<li>From:Brest, Bretagne, France </li>
+</ul>
+	
+
+		
+<h2>SITE</h2>
+<ul>
+<li>Last update: 2020/05/26</li>
+<li>Language: English / French </li>
+<li>Doctype: HTML5 </li>
+<li>IDE: Visual Studio Code, FileZilla</li>
+</ul>
+</article>

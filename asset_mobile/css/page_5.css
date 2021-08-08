@@ -1,0 +1,76 @@
+
+    .formulaire{
+        width:100%;
+        height: 100%;
+    }
+    .form_large{
+        height: auto;
+        min-height: 83px;
+        width: 90%;
+        
+        display: flex;
+        flex-direction: row;
+        margin-left: 5%;
+        color: white;
+    }
+    .form_moitie{
+        display: flex;
+        flex-direction: column;
+        width: 48%;
+        margin: auto;
+    }
+    .form_large > select {
+        height: 40px;
+        width: 300px;
+        margin: auto;
+        border: transparent;
+        box-shadow: 3px 3px 5px 5px black;
+        background-color: rgb(90, 90, 90);
+        color: white;
+    }
+    
+    .form_large > textarea{
+        margin: auto;
+        width: 80%;
+        height: 350px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border:  rgba(114, 52, 52, 0);
+        box-shadow: 3px 3px 5px 5px black;
+        background-color: rgb(90, 90, 90);
+        color: white;
+        padding: 5px;
+    }
+    #form_action{
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        
+    }
+    #form_action > input{
+        margin: auto;
+    }
+    #form_check{
+        display:flex ;
+        flex-direction: row;
+        padding-left: 10px;
+        box-shadow: 3px 3px 5px 5px black;
+        background-color: rgb(90, 90, 90);
+        color: white;
+    }
+    #human{
+        width: 12%;
+        margin-left: 35%;
+    }
+    #marge_bottom_page_4{
+        width: 100%;
+        min-height: 10vh;
+    }
+    #envoie{
+        height: 55px;
+        transition: 0.3s;
+    }
+    #envoie:hover{
+        color: rgb(60, 157, 248);
+        border: solid 1px rgb(60, 157, 248);
+    }

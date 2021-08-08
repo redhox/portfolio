@@ -1,0 +1,89 @@
+#page_5{
+    background-image: url('../image/pexels-photo-1367192.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#block_page_5{
+    position: absolute;
+    right: -200px;
+    height: 100vh;
+    width: 1000px;
+    background-color: rgb(31, 31, 31);
+    transform: skewX(-10deg);
+    box-shadow: inset 5px 5px 8px black;
+}
+    .formulaire{
+        transform: skewX(10deg);
+        width: 700px;
+        height: 800px;
+        margin-left:80px ;
+        margin-top: 130px;
+        
+    }
+    .form_large{
+        height: auto;
+        min-height: 83px;
+        width: 90%;
+        
+        display: flex;
+        flex-direction: row;
+        margin-left: 5%;
+    }
+    .form_moitie{
+        display: flex;
+        flex-direction: column;
+        width: 48%;
+        margin: auto;
+    }
+    .form_large > select {
+        height: 40px;
+        width: 300px;
+        margin: auto;
+        border: transparent;
+        box-shadow: 3px 3px 5px 5px black;
+        background-color: transparent;
+        color: white;
+    }
+    
+    .form_large > textarea{
+        margin: auto;
+        width: 80%;
+        height: 350px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border:  rgba(114, 52, 52, 0);
+        box-shadow: 3px 3px 5px 5px black;
+        background-color: transparent;
+        color: white;
+        padding: 5px;
+    }
+    #form_action{
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        
+    }
+    #form_action > input{
+        margin: auto;
+    }
+    #form_check{
+        display:flex ;
+        flex-direction: row;
+        padding-left: 10px;
+        
+        box-shadow: 3px 3px 5px 5px black;
+        background-color: transparent;
+    }
+    #human{
+        width: 12%;
+        margin-left: 35%;
+    }
+    #envoie{
+        height: 55px;
+        transition: 0.3s;
+    }
+    #envoie:hover{
+        color: rgb(60, 157, 248);
+        border: solid 1px rgb(60, 157, 248);
+    }

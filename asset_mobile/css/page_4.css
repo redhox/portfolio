@@ -1,0 +1,79 @@
+#page_4 > div{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.ligne_page_4{
+    min-height: 25%;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.ligne_page_4 > div {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    height: auto;
+    min-height: 30px;
+}
+.titre_page_4{
+    height: 30px;
+    width: 30%;
+    overflow: hidden;
+    color: rgb(148, 225, 255);
+}
+.trais{
+    height: 1px;
+    width: 70%;
+    border: 1px solid rgb(148, 225, 255);
+    margin-top: 15px;
+}
+
+
+.block_competance{
+    height:auto;
+    min-width: 200px;
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-bottom:5px ;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: white;
+}
+.block_competance_titre{
+    width: 100%;
+    height: 35px;
+    background-color: blueviolet;
+    padding: 2%;
+    font-style: italic;
+}
+.block_competance_core{
+    width: 100%;
+    min-height: 100px;
+    background-color: white;
+    color: black;
+    padding: 2%;
+    font-variant-caps: all-petite-caps;
+}
+#contenu_color_html{
+    background-color: rgb(87, 87, 87);
+}
+#contenu_color_bootstrap{
+    background-color: blueviolet;
+}
+#contenu_color_algo{
+    background-color: rgb(95, 83, 14);
+}
+#contenu_color_js{
+    background-color: rgb(33, 189, 142);
+}
+#contenu_color_php{
+    background-color: rgb(90, 80, 231);
+    
+}
+#marge_bottom_page_4{
+    width: 100%;
+    min-height: 10vh;
+}
